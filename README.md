@@ -23,7 +23,7 @@ hdfs dfs -get hdfs://hadoop-master:9000/results/part-r-* ./results/<br/>
 ![res2](https://cloud.githubusercontent.com/assets/22739177/21577057/a0df427a-cf01-11e6-837c-9f0949beb4b3.PNG)
 
 **Search Examples:**<br/>
-  Search file(s) based on keyword "abbey"<br/>
+&nbsp;&nbsp;Search file(s) based on keyword "abbey"<br/>
 ![res4](https://cloud.githubusercontent.com/assets/22739177/21577058/a0df5e5e-cf01-11e6-9fdb-76cb610c7b3c.PNG)
-  Search file(s) based on keyword "frightened"<br/>
+&nbsp;&nbsp;Search file(s) based on keyword "frightened"<br/>
 ![res5](https://cloud.githubusercontent.com/assets/22739177/21577061/a0dfb99e-cf01-11e6-9110-a57ed8c16849.PNG)
