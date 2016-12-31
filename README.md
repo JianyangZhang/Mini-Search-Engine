@@ -1,4 +1,5 @@
 This is my Hadoop MapReduce starter program running in Docker environment. It is a mini tool implemented searching files based on keywords.<br/> 
+
 **The accuracy of the results can be adjusted by changing the THRESHOLD variable(currently 10) in EngineReducer.java**<br/>
 ![res3](https://cloud.githubusercontent.com/assets/22739177/21577060/a0df58c8-cf01-11e6-99cb-aa3406ee2085.PNG)
 
