@@ -14,7 +14,8 @@ hdfs dfs -ls hdfs://hadoop-master:9000/<br/>
 ![res6](https://cloud.githubusercontent.com/assets/22739177/21577062/a0e17270-cf01-11e6-8f47-68db9c5dbfb7.PNG)
 
 **Run the project:**<br/>
-hadoop jar MiniSearchEngine.jar com.minisearchengine.mapreduce.EngineDriver hdfs://hadoop-master:9000/ebooks hdfs://hadoop-master:9000/results //hadoop-master:9000/sw/stopwords.txt<br/>
+Usage: hadoop jar \<jar file> \<main class name> \<input dir> \<output dir> \<stopwords dir><br/>
+Example: hadoop jar MiniSearchEngine.jar com.minisearchengine.mapreduce.EngineDriver hdfs://hadoop-master:9000/ebooks hdfs://hadoop-master:9000/results //hadoop-master:9000/sw/stopwords.txt<br/>
 ![res1](https://cloud.githubusercontent.com/assets/22739177/21577059/a0df450e-cf01-11e6-9c76-0ddb97cb1aeb.PNG)
 
 **Transfer results from HDFS to local file system:**<br/>
